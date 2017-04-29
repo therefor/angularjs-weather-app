@@ -1,4 +1,4 @@
-# AngularJs counter
+# AngularJs tiny weather app
 
 AngularJs版weather app，[demo在此](https://therefor.github.io/angularjs-weather-app/)。
 
@@ -8,5 +8,5 @@ AngularJs版weather app，[demo在此](https://therefor.github.io/angularjs-weat
 
 > 点击温度可以从摄氏度（℃）与华氏温度（°F）之间切换
 
-<img src='./demo-gif/transform.gif' width='700px'>
+<img src='./demo-gif/cOrF.gif' width='700px'>
 
