@@ -1,0 +1,33 @@
+body{
+    color: white;
+    font-family: Verdana,'Roboto';
+    background-color: #171717;
+}
+
+img {
+    width: 32%;
+    hight: 24%;
+    min-width: 280px;
+}
+
+.city {
+    font-size: 5em;
+    text-transform: capitalize;
+}
+
+.tempCel, .wheather {
+    font-size: 3em;
+    text-transform: capitalize;
+}
+
+.form-inline{
+    padding:20px;
+}
+
+span.temp{
+    color: #005096;
+}
+
+.tempCel:hover{
+    color:#005096;
+}

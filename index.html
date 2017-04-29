@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <title>AngularJs weather</title>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <!-- base url -->
+    <!--base href="/"-->
+</head>
+
+<body>
+
+<div class = "container-fluid">
+    <div class = "text-center">
+        <div id = "infoBoard" ng-app="wheatherInfo" ng-controller="myCtrl">
+            <p class = "city">{{city +", " + country}}</p>
+            <p class = "tempCel" ng-click="sys()" >{{temp + "°"}}<span class="temp" >{{unit}}</span></p>
+            <p class = "wheather">{{wheather}}</p>
+
+            <p ng-class = "wheather" ><img id = "wheatherPic"class = "img-rounded " src = ""></p>
+            <form class="form-inline" role="form">
+                <div class="form-group">
+                    <input class="form-control"type = "character" ng-model ="anotherCity" placeholder="请输入所在城市拼音">
+                    <button class = "btn btn-success" ng-click="changeCity()">change city</button>
+                </div>
+            </form>
+
+            <div class = "footer">Tiny Wheather APP by <a href = "https://github.com/therefor/">Therefor</a></div>
+
+
+        </div>
+    </div>
+</div>
+
+<!-- 最新版本的 Bootstrap 核心 CSS 文件 -->
+<link rel="stylesheet"
+      href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css"
+      integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+      crossorigin="anonymous">
+
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+<script src="main.js"></script>
+<link href='https://cdnjs.cloudflare.com/ajax/libs/weather-icons/1.3.2/css/weather-icons.min.css' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="main.css">
+</body>
+</html>
