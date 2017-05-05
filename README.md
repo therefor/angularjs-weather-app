@@ -1,6 +1,6 @@
 # AngularJs tiny weather app
 
-AngularJs版weather app，[demo在此](https://therefor.github.io/angularjs-weather-app/)。
+AngularJs版weather app，[demo在此](http://codepen.io/StephenZhong/full/LRNBzY/)。
 
 > 可在输入框输入城市拼音，以切换城市
 
